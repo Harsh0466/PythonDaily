@@ -49,3 +49,48 @@ elif num2 >= num1 and num2 >= num3:
     print("Number 2 is the greatest")
 else:
     print("Number 3 is the greatest")
+
+
+# 5. Voting Eligibility
+age = int(input("Enter your age:"))
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+
+
+# 6. Pass or Fail
+marks = int(input("Enter the marks:"))
+if marks >= 40:
+    print("The student passes")
+else:
+    print("The student fails")
+
+
+# 7. Simple Calculator
+num1 = int(input("Enter number 1:"))
+num2 = int(input("Enter number 2:"))
+op = input("Enter the operator:")
+
+if op == '+':
+    print("The addition of both the numbers is:", num1 + num2)
+elif op == '-':
+    print("The subtraction of both the numbers is:", num1 - num2)
+elif op == '*':
+    print("The multiplication of both the numbers is:", num1 * num2)
+elif op == '/':
+    if num2 == 0:
+        print("num2 is zero, so that num1 can't be divided")
+    elif num2 != 0:
+        print("The division of both the numbers is:", num1 / num2)
+else:
+    print("The operator you chose is wrong")
+
+
+# 8. Divisible by 3 and 5
+num = int(input("Enter the number:"))
+
+if num % 3 == 0 and num % 5 == 0:
+    print("The number is divisible by both 3 and 5")
+else:
+    print("The number is not divisible by both 3 and 5")
