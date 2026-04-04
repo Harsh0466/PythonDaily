@@ -67,3 +67,31 @@ else:
     print("The student fails")
 
 
+# 7. Simple Calculator
+num1 = int(input("Enter number 1:"))
+num2 = int(input("Enter number 2:"))
+op = input("Enter the operator:")
+
+if op == '+':
+    print("The addition of both the numbers is:", num1 + num2)
+elif op == '-':
+    print("The subtraction of both the numbers is:", num1 - num2)
+elif op == '*':
+    print("The multiplication of both the numbers is:", num1 * num2)
+elif op == '/':
+    if num2 == 0:
+        print("num2 is zero, so that num1 can't be divided")
+    elif num2 != 0:
+        print("The division of both the numbers is:", num1 / num2)
+else:
+    print("The operator you chose is wrong")
+
+
+# 8. Divisible by 3 and 5
+num = int(input("Enter the number:"))
+
+if num % 3 == 0 and num % 5 == 0:
+    print("The number is divisible by both 3 and 5")
+else:
+    print("The number is not divisible by both 3 and 5")
+
