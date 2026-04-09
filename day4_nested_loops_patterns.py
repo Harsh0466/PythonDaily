@@ -46,7 +46,7 @@ for i in range(4):
 
 # Day 4: Pyramid Patterns
 
-# 1. Increasing Pyramid (your first attempt)
+# 1. Increasing Pyramid 
 for i in range(5):
     for j in range(5 - i):
         print("  ", end=' ')
@@ -64,10 +64,3 @@ for i in range(5, 0, -1):
     print()
 
 
-# 3. Final Correct Pyramid (Centered)
-for i in range(5):
-    for j in range((5 - i) - 1):
-        print(" ", end='')
-    for k in range(i + 1):
-        print("*", end=' ')
-    print()
