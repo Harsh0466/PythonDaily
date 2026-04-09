@@ -46,7 +46,7 @@ for i in range(4):
 
 # Day 4: Pyramid Patterns
 
-# 1. Increasing Pyramid 
+# 6. Increasing Pyramid 
 for i in range(5):
     for j in range(5 - i):
         print("  ", end=' ')
@@ -55,7 +55,7 @@ for i in range(5):
     print()
 
 
-# 2. Inverted Pyramid
+# 7. Inverted Pyramid
 for i in range(5, 0, -1):
     for j in range(5 - i):
         print("  ", end=' ')
@@ -63,4 +63,10 @@ for i in range(5, 0, -1):
         print("* ", end=' ')
     print()
 
-
+# 8.Pyramid (Centered)
+for i in range(5):
+    for j in range((5 - i) - 1):
+        print(" ", end='')
+    for k in range(i + 1):
+        print("*", end=' ')
+    print()
